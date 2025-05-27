@@ -21,8 +21,4 @@
 6. saida do print com sout
 
 
-## [DPK01_impl_2.py](DPK01_impl_2.py)
-
-    python3 DPK01_impl_1.py
-    # chose a word: NEU
-    # word twisted: UEN
+## [DPK01_impl_2.py](DPK01_impl_2.py)  
