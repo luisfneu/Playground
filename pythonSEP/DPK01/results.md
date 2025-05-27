@@ -22,3 +22,15 @@
 
 
 ## [DPK01_impl_2.py](DPK01_impl_2.py)  
+
+    python3 DPK01_impl_2.PY
+    # chose a word: 123456
+    # word twisted: 54321
+
+
+1. entrada da funcao main
+2. variavel sin = 123456
+3. chama funcao twist com palavra digitada no sin
+4. executa a funcao inverter a string [::-1] - busca string indice(inicial) e final decrementando 1, este efeito do slicing inverte a string
+5. sout = "654321"
+6. saida do print com sout
