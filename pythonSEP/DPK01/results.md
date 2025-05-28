@@ -25,7 +25,7 @@
 
     python3 DPK01_impl_2.PY
     # chose a word: 123456
-    # word twisted: 54321
+    # word twisted: 654321
 
 ### teste de mesa: 
 1. entrada da funcao main
@@ -65,12 +65,12 @@
     # word twisted: 54321
 
 ### teste de mesa: 
-1. entrada da funcao main
-2. variavel sin = 12345
-3. chama funcao twist com palavra digitada no sin
-4. variavel revst = "" (em branco) 
-5. define o  indice 
-6. laço com while com cada char 
+1. entrada da funcao main.
+2. variavel sin = 12345.
+3. chama funcao twist com palavra digitada no sin.
+4. variavel revst = "" (em branco).
+5. define o tamanho do indice com base no tamanho da palavra decrementando um ( pois indice tem count inicial em zero).
+6. laço com while com cada char desde que idx maior ou igual a zero.
 - 1 item do for:
     trevstmp = "1" + "" = "1"
 - 2 item do for: 
@@ -83,3 +83,4 @@
     revst = "5" + "4321" = "54321"
 5. sout = "5421"
 6. saida do print com sout
+git p
