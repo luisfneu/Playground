@@ -56,3 +56,30 @@
     tmp = "S" + "IUL" = "SIUL"
 5. sout = "SIUL"
 6. saida do print com sout
+
+
+## [DPK01_impl_4.py](DPK01_impl_4.py)  
+
+    python3 DPK01_impl_4.PY
+    # chose a word: 13245
+    # word twisted: 54321
+
+### teste de mesa: 
+1. entrada da funcao main
+2. variavel sin = 12345
+3. chama funcao twist com palavra digitada no sin
+4. variavel revst = "" (em branco) 
+5. define o  indice 
+6. laço com while com cada char 
+- 1 item do for:
+    trevstmp = "1" + "" = "1"
+- 2 item do for: 
+    trevstmp = "2" + "L" = "21"
+- 3 item do for: 
+    revst = "3" + "21" = "321"
+- 4 item do for: 
+    trevstmp = "4" + "321" = "4321"
+- 5 item do for: 
+    revst = "5" + "4321" = "54321"
+5. sout = "5421"
+6. saida do print com sout
