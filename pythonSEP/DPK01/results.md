@@ -83,4 +83,24 @@
     revst = "5" + "4321" = "54321"
 5. sout = "5421"
 6. saida do print com sout
-git p
+
+## [DPK01_impl_5.py](DPK01_impl_5.py)  
+
+    python3 DPK01_impl_4.PY
+    # chose a word: 13245
+    # word twisted: 54321
+
+### teste de mesa: 
+1. entrada da funcao main.
+2. variavel sin = 12345.
+3. chama funcao twist com palavra digitada no sin.
+3. cria lista(pilha) stack com valores ['1', '2', '3', '4', '5']
+4. variavel revst = "" (em branco).
+6. laço com while com valores do stack até pilha stack ficar vazia
+- pop() → '1' → rstr = "5" → stack = ['1', '2', '3', '4']
+- pop() → '2' → rstr = "54" → stack = ['1', '2', '3']
+- pop() → '3' → rstr = "543" → stack = ['1', '2']
+- pop() → '4' → rstr = "5321" → stack = ['1']
+- pop() → '5' → rstr = "54321" → stack = []
+7. sout = "54321"
+6. saida do print com sout
