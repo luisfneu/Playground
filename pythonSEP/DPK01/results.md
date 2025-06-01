@@ -108,18 +108,42 @@
 ## [DPK01_impl_6.py](DPK01_impl_6.py)  
 
     python3 DPK01_impl_6.PY
-    # chose a word: NEU
-    # word twisted: UEN
+    # chose a word: LUIS NEU
+    # word twisted: UEN SIUL
 
 ### teste de mesa: 
 1. entrada da funcao main.
 2. variavel sin = NEU.
 3. chama funcao twist com palavra digitada no sin.
-4. 
-5. 
-6. 
-7. sout = "UEN" retornado da função twist
-8. saida do print com sout
+4. str = LUIS NEU
+5. chars = ['L','U','I','S',' ','N','E','U']
+6. left =0 e right = 7 - tamanho da string -1 (para poder usar indice correto que começa em 0)
+7. While
+    7.1 iteração 1 - While de 0 < 7 = true
+        7.1.1 chars[0], chars[7] = chars[7], chars[0]
+            7.1.1.1  chars = ['U','U','I','S',' ','N','E','L']
+        7.1.2 left = 0+1 =1
+        7.1.3 right = 7-1 = 6
+    7.2 iteração 2 - While de 1 < 6 = true
+        7.2.1 chars[1], chars[6] = chars[6], chars[1]
+            7.2.1.1  chars = ['U','E','I','S',' ','N','U','L']
+        7.2.2 left = 1+1 =2
+        7.2.3 right = 6-1 = 5
+    7.3 iteração 3 - While de 2 < 5 = true
+        7.3.1 chars[2], chars[5] = chars[5], chars[2]
+            7.3.1.1  chars = ['U','E','N','S',' ','I','U','L']
+        7.3.2 left = 2+1 =3
+        7.3.3 right = 5-1 = 4
+    7.4 iteração 4 - While de 3 < 4 = true
+        7.4.1 chars[3], chars[4] = chars[4], chars[3]
+            7.4.1.1  chars = ['U','E','N',' ','S','I','U','L']
+        7.4.2 left = 3+1 =4
+        7.4.3 right = 4-1 = 3
+    7.5 iteração 5 - While de 4 < 3 = false
+8. chars = ['U','E','N',' ','S','I','U','L']
+9. return com join ['U','E','N',' ','S','I','U','L'] com separador '', remotando string
+10. sout = "UEN SIUL" retornado da função twist
+11. saida do print com sout
 
 ## [DPK01_impl_7.py](DPK01_impl_7.py)  
 

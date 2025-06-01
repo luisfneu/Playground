@@ -1,6 +1,7 @@
 def twist(str):
     barray = bytearray(str, "utf-8")
-    barray.reverse()
+    barray.reverse() # metodo reverse do bytearray 
+    # barray.reverse() in-place, so no need to assign it back
     rstr = barray.decode("utf-8")
     return rstr
 
