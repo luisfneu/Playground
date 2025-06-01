@@ -108,6 +108,22 @@
 ## [DPK01_impl_6.py](DPK01_impl_6.py)  
 
     python3 DPK01_impl_6.PY
+    # chose a word: NEU
+    # word twisted: UEN
+
+### teste de mesa: 
+1. entrada da funcao main.
+2. variavel sin = NEU.
+3. chama funcao twist com palavra digitada no sin.
+4. 
+5. 
+6. 
+7. sout = "UEN" retornado da função twist
+8. saida do print com sout
+
+## [DPK01_impl_7.py](DPK01_impl_7.py)  
+
+    python3 DPK01_impl_7.PY
     # chose a word: FERNANDO
     # word twisted: ODNANREF
 
@@ -120,3 +136,27 @@
 6. rstr convertido bytearray para string novamente com metodo decode() em UTF-8
 7. sout = "ODNANREF" retornado da função twist
 8. saida do print com sout
+
+## [DPK01_impl_8.py](DPK01_impl_8.py)  
+
+    python3 DPK01_impl_8.PY
+    # chose a word: NEU
+    # word twisted: UEN
+
+### teste de mesa: 
+1. entrada da funcao main.
+2. variavel sin = NEU.
+3. chama funcao twist com palavra digitada no sin.
+4. retorna com metodo join
+    4.1 '' - separador
+    4.2 resersed(str) - inverte a string
+    4.3 retorna string invertida com separador '' ( string em branco)
+7. sout = "UEN" retornado da função twist
+8. saida do print com sout
+
+## [DPK01_impl_9.py](DPK01_impl_9.py)  
+
+
+
+
+## [DPK01_impl_10.py](DPK01_impl_10.py)  
