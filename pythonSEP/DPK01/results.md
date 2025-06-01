@@ -17,7 +17,7 @@
     tmp = "E" + "N" = "EN"
 - 3 item do for: 
     tmp = "U" + "EN" = "UEN"
-5. sout = "UEN"
+5. sout = "UEN" retornado da função twist
 6. saida do print com sout
 
 
@@ -32,7 +32,7 @@
 2. variavel sin = 123456
 3. chama funcao twist com palavra digitada no sin
 4. executa a funcao inverter a string [::-1] - busca string indice(inicial) e final decrementando 1, este efeito do slicing inverte a string
-5. sout = "654321"
+5. sout = "654321" retornado da função twist
 6. saida do print com sout
 
 ## [DPK01_impl_3.py](DPK01_impl_3.py)  
@@ -54,7 +54,7 @@
     tmp = "I" + "UL" = "IUL"
 - 4 item do for: 
     tmp = "S" + "IUL" = "SIUL"
-5. sout = "SIUL"
+5. sout = "SIUL" retornado da função twist
 6. saida do print com sout
 
 
@@ -81,12 +81,12 @@
     trevstmp = "4" + "321" = "4321"
 - 5 item do for: 
     revst = "5" + "4321" = "54321"
-5. sout = "5421"
+5. sout = "5421" retornado da função twist
 6. saida do print com sout
 
 ## [DPK01_impl_5.py](DPK01_impl_5.py)  
 
-    python3 DPK01_impl_4.PY
+    python3 DPK01_impl_5.PY
     # chose a word: 13245
     # word twisted: 54321
 
@@ -102,5 +102,21 @@
 - pop() → '3' → rstr = "543" → stack = ['1', '2']
 - pop() → '4' → rstr = "5321" → stack = ['1']
 - pop() → '5' → rstr = "54321" → stack = []
-7. sout = "54321"
+7. sout = "54321" retornado da função twist
 6. saida do print com sout
+
+## [DPK01_impl_6.py](DPK01_impl_6.py)  
+
+    python3 DPK01_impl_6.PY
+    # chose a word: FERNANDO
+    # word twisted: ODNANREF
+
+### teste de mesa: 
+1. entrada da funcao main.
+2. variavel sin = FERNANDO.
+3. chama funcao twist com palavra digitada no sin.
+4. barray transformando sin em bytearray UTF-8.
+5. barray usnado metodo reverse() - que inverte os bytes do proprio array.
+6. rstr convertido bytearray para string novamente com metodo decode() em UTF-8
+7. sout = "ODNANREF" retornado da função twist
+8. saida do print com sout
