@@ -97,11 +97,11 @@
 3. cria lista(pilha) stack com valores ['1', '2', '3', '4', '5']
 4. variavel revst = "" (em branco).
 6. laço com while com valores do stack até pilha stack ficar vazia
-- pop() → '1' → rstr = "5" → stack = ['1', '2', '3', '4']
-- pop() → '2' → rstr = "54" → stack = ['1', '2', '3']
-- pop() → '3' → rstr = "543" → stack = ['1', '2']
-- pop() → '4' → rstr = "5321" → stack = ['1']
-- pop() → '5' → rstr = "54321" → stack = []
+- pop() - '1' → rstr = "5" → stack = ['1', '2', '3', '4']
+- pop() - '2' → rstr = "54" → stack = ['1', '2', '3']
+- pop() - '3' → rstr = "543" → stack = ['1', '2']
+- pop() - '4' → rstr = "5321" → stack = ['1']
+- pop() - '5' → rstr = "54321" → stack = []
 7. sout = "54321" retornado da função twist
 6. saida do print com sout
 
@@ -119,27 +119,27 @@
 5. chars = ['L','U','I','S',' ','N','E','U']
 6. left =0 e right = 7 - tamanho da string -1 (para poder usar indice correto que começa em 0)
 7. While
-    7.1 iteração 1 - While de 0 < 7 = true
-        7.1.1 chars[0], chars[7] = chars[7], chars[0]
-            7.1.1.1  chars = ['U','U','I','S',' ','N','E','L']
-        7.1.2 left = 0+1 =1
-        7.1.3 right = 7-1 = 6
-    7.2 iteração 2 - While de 1 < 6 = true
-        7.2.1 chars[1], chars[6] = chars[6], chars[1]
-            7.2.1.1  chars = ['U','E','I','S',' ','N','U','L']
-        7.2.2 left = 1+1 =2
-        7.2.3 right = 6-1 = 5
-    7.3 iteração 3 - While de 2 < 5 = true
-        7.3.1 chars[2], chars[5] = chars[5], chars[2]
-            7.3.1.1  chars = ['U','E','N','S',' ','I','U','L']
-        7.3.2 left = 2+1 =3
-        7.3.3 right = 5-1 = 4
-    7.4 iteração 4 - While de 3 < 4 = true
-        7.4.1 chars[3], chars[4] = chars[4], chars[3]
-            7.4.1.1  chars = ['U','E','N',' ','S','I','U','L']
-        7.4.2 left = 3+1 =4
-        7.4.3 right = 4-1 = 3
-    7.5 iteração 5 - While de 4 < 3 = false
+    - iteração 1 - While de 0 < 7 = true
+        - chars[0], chars[7] = chars[7], chars[0]
+            -  chars = ['U','U','I','S',' ','N','E','L']
+        - left = 0+1 =1
+        - right = 7-1 = 6
+    - iteração 2 - While de 1 < 6 = true
+        - chars[1], chars[6] = chars[6], chars[1]
+            -  chars = ['U','E','I','S',' ','N','U','L']
+        - left = 1+1 =2
+        - right = 6-1 = 5
+    - iteração 3 - While de 2 < 5 = true
+        - chars[2], chars[5] = chars[5], chars[2]
+            -  chars = ['U','E','N','S',' ','I','U','L']
+        -left = 2+1 =3
+        -right = 5-1 = 4
+    - iteração 4 - While de 3 < 4 = true
+        -chars[3], chars[4] = chars[4], chars[3]
+            -  chars = ['U','E','N',' ','S','I','U','L']
+        - left = 3+1 =4
+        - right = 4-1 = 3
+    - iteração 5 - While de 4 < 3 = false
 8. chars = ['U','E','N',' ','S','I','U','L']
 9. return com join ['U','E','N',' ','S','I','U','L'] com separador '', remotando string
 10. sout = "UEN SIUL" retornado da função twist
@@ -172,9 +172,9 @@
 2. variavel sin = NEU.
 3. chama funcao twist com palavra digitada no sin.
 4. retorna com metodo join
-    4.1 '' - separador
-    4.2 resersed(str) - inverte a string
-    4.3 retorna string invertida com separador '' ( string em branco)
+    - '' - separador
+    - resersed(str) - inverte a string
+    - retorna string invertida com separador '' ( string em branco)
 7. sout = "UEN" retornado da função twist
 8. saida do print com sout
 
