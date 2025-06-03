@@ -180,7 +180,23 @@
 
 ## [DPK01_impl_9.py](DPK01_impl_9.py)  
 
+    python3 DPK01_impl_9.PY
+    # chose a word: LUIS F
+    # word twisted: F SIUL
 
+### teste de mesa: 
+1. entrada da funcao main
+2. variavel sin = "LUIS F"
+3. chama funcao twist com palavra digitada no sin
+4. executa a função inverter a string
+5. sout = "F SIUL" retornado da função twist
+6. saida do print com sout
 
+## [DPK01_impl_10.py](DPK01_impl_10.py)
 
-## [DPK01_impl_10.py](DPK01_impl_10.py)  
+    python3 DPK01_impl_10.PY
+    # chose a word: 123
+    # word twisted: 321
+
+1. Solução ja utilizada anteriormente, apenas para treinamento
+2. Mesmo que: [DPK01_impl_1.py](DPK01_impl_1.py)
