@@ -6,7 +6,7 @@ def revList (lst):
 
 def main():
     listIn = input("* Type a list separete by , (comma) : ")
-    listIn = listIn.split(',') # split string in , to a list
+    listIn = listIn.split(',')
     listOut = revList(listIn)
     print("* Reversed List :",listOut)
 
