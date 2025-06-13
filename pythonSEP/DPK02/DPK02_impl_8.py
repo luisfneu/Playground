@@ -1,6 +1,10 @@
 def reverseL(l): 
-    return list(reversed)
+    return list(reversed(l))
 
-def main()
+def main():
     listI = input("valor entrada sep por : ")
-    listI = listI.split(":")
+    listI = listI.split(':')
+    listO = reverseL(listI)
+    print(listO)
+    
+main()
