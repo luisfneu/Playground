@@ -1,30 +1,25 @@
-class LookupService:
-    def __init__(self):
-        self.id_to_name = {}
-        self.name_to_email = {}
-        self.email_to_name = {}
-    
-    def add_entry(self, id_, name, email):
-        self.id_to_name[id_] = name
-        self.name_to_email[name] = email
-        self.email_to_name[email] = name
+lookup = [
+    {"id": 1, "name": "John", "email": "john@john.jhon.com"},
+    {"id": 2, "name": "lneu", "email": "lneu@google.com"},
+    {"id": 3, "name": "Bina", "email": "bina@teste.com"}
+]
+id_to_name = {person["id"]: person["name"] for person in lookup}
+name_to_email = {person["name"]: person["email"] for person in lookup}
+email_to_name = {person["email"]: person["name"] for person in lookup}
 
-    def lookup(self, key):
-        if isinstance(key, int):
-            return self.id_to_name.get(key, "Not found")
-        elif isinstance(key, str):
-            if key in self.name_to_email:
-                return self.name_to_email[key]
-            elif key in self.email_to_name:
-                return self.email_to_name[key]
-            else:
-                return "Not found"
+def lookup(key):
+    if isinstance(key, int):
+        return id_to_name.get(key, "ID not found")
+    elif isinstance(key, str):
+        if key in name_to_email:
+            return name_to_email[key]
+        elif key in email_to_name:
+            return email_to_name[key]
         else:
-            return "Invalid key type"
-if __name__ == "__main__":
-    service = LookupService()
-    service.add_entry(1, "John", "john@john.jhon.com")
+            return "Name or email not found"
+    else:
+        return "Invalid key type"
 
-    print(service.lookup(1))
-    print(service.lookup("John"))
-    print(service.lookup("john@john.jhon.com"))
+print(lookup(3))
+print(lookup("lneu"))
+print(lookup("john@john.jhon.com"))
